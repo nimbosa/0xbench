@@ -1,6 +1,6 @@
 = Current included benchmarks =
   # Linpack
-   The Linpack Benchmark make use of numerical linear algebra operation to test the device's ability to perform floating point operations (MFLOPS). For detail please refer to [http://en.wikipedia.org/wiki/LINPACK Wikipedia], [http://www.netlib.org/benchmark/linpackjava/ netlib.org], [http://www.cs.cmu.edu/~jch/java/linpack.html cs.cmu.edu]. The original source can be found online here: [http://www.cs.cmu.edu/~jch/java/LinpackLoop.java Source code].
+   The Linpack Benchmark make use of a general numerical linear algebra operation to test the device's ability to perform floating point operations (MFLOPS). For detail please refer to [http://en.wikipedia.org/wiki/LINPACK Wikipedia], [http://www.netlib.org/benchmark/linpackjava/ netlib.org], [http://www.cs.cmu.edu/~jch/java/linpack.html cs.cmu.edu]. The original source can be found online here: [http://www.cs.cmu.edu/~jch/java/LinpackLoop.java Source code].
   # Scimark2
    The Scimark2 Benchmark Suite includes several scientific calculation (including FTT, MonteCarlo ..etc) for testing the device's abilitity to perform floating point operations (MFLOPS). For detail please refer to [http://math.nist.gov/scimark2/ nist.gov].
   # LibMicro
