@@ -4,7 +4,7 @@
   # Scimark2
    The Scimark2 Benchmark Suite includes several scientific calculation (including FTT, MonteCarlo ..etc) for testing the device's abilitity to perform floating point operations (MFLOPS). For detail please refer to [http://math.nist.gov/scimark2/ nist.gov].
   # LibMicro
-   A portable set of microbenchmarks that executes abundant system calls to measure the performance of different system and library calls (bionic). Since calling system functions directly is required for this benchmark, the executable files for this benchmark needs to be deployed in advance. (Which will require root permission of your device)
+   A portable set of microbenchmarks that executes abundant system calls to measure the performance of different system and library calls (bionic). Since calling system functions directly is required,  this benchmark depends on a set of executable files that needs to be deployed in advance. (Which requires root permission of your device)
   # Canvas Redraw
    Use random color to redraw canvas repeatedly, and calculate the refresh rate.     
   # Draw Circle
