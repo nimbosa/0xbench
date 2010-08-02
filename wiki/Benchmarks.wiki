@@ -18,4 +18,4 @@
   # NeHe Lesson16
    A rotating 3D cube with textured applied and GLFog enabled. For detail please refer to [http://nehe.gamedev.net/lesson.asp?index=04 nehe.gamedev.net](Cool look fog). For source code and explanation please refer to [http://nehe.gamedev.net/data/lessons/lesson.asp?lesson=16 NeHe lesson16].
   # Garbage Collection
-   Test the performance of garbage collection on the Dalvik VM. For detail please refer to [http://www.hpl.hp.com/personal/Hans_Boehm/gc/gc_bench.html hpl.hp.com]. Adapted from [http://www.hpl.hp.com/personal/Hans_Boehm/gc/gc_bench/GCBench.java GCBench.java]
+   Test the performance of garbage collection on the Dalvik VM. For detail please refer to [http://www.hpl.hp.com/personal/Hans_Boehm/gc/gc_bench.html hpl.hp.com].  The original source can be found online here: [http://www.hpl.hp.com/personal/Hans_Boehm/gc/gc_bench/GCBench.java GCBench.java]
