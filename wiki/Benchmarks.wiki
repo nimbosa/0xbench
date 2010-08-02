@@ -10,7 +10,7 @@
   # Draw Circle
    A simple 2D animation program. Calculate the refresh rate.
   # GL Cube
-   A sample program from the Android API Demo that uses OpenGL ES to render the rotating Rubik's Cube.
+   A sample program from the Android API Demo that uses OpenGL ES to render a rotating Rubik's Cube.
   # GL Teapot
    Use OpenGL ES to render a rotating Utah Teapot ([http://en.wikipedia.org/wiki/Utah_teapot Wikipedia]). Adapted from [http://code.google.com/p/android-utah-teapot/ android-utah-teapot] project (which uses source code from Android SDK sample programs and iPhone SDK sample programs).
   # NeHe Lesson08
