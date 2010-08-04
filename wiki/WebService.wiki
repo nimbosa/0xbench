@@ -9,7 +9,7 @@ Beside saving or benchmarking results to the SD Card (either plain text or XML),
 = Web Interface =
 http://farm5.static.flickr.com/4143/4858834355_ee039998e2_d.jpg
 
-There are four regions in the Web Interface. At the top is a tabbar that switch to view different benchmark categories.
+There are five regions in the Web Interface. At the top is a tabbar that switch to view different benchmark categories.
 
 The Option Section controls how the Main Table (third section) will be displayed. Detail of the option section will be explained in latter sections of this article.
 
@@ -17,7 +17,7 @@ The Main Table display results of multiple runs (uploads). Each benchmarking cas
 
 The Runs Section display details of different runs, including benchmark execution date/time, phone model, kernel version, etc. You can also name/rename or delete a run, if you are the page owner.
 
-In the last section, All the cases are listed with the tags that are assigned to it. 
+In the last section, the Tag Section, All the cases are listed with the tags that are assigned to it. 
 
 == Options ==
 http://farm5.static.flickr.com/4080/4858978287_2817a09130_o_d.png
