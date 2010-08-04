@@ -1,0 +1,28 @@
+#summary Explain server-side service and data representation format
+
+= Introduction =
+
+Beside saving or benchmarking results to the SD Card (either plain text or XML), 0xbench can also upload your results to a web service that provide visual representation of your results.This article explains in detail the steps needed to upload and how to interpret the results.
+
+= Uploading =
+
+= Web Interface =
+http://farm5.static.flickr.com/4143/4858834355_ee039998e2_d.jpg
+
+There are four regions in the Web Interface. At the top is a tabbar that switch to view different benchmark categories.
+
+The Option Section controls how the main table (third section) will be displayed. For example, what benchmarks to display (via tags or select directly), what type of graph should be displayed, who have access to the page, etc. Detail of the option section will be explained in latter sections of this article.
+
+In the Main Table, you can see results of multiple runs (uploads). Each benchmarking case is presented with a average performance number, and different types of graph representation. All the cases are also assigned with tags so that it's visibility can be controlled via the Option Section. 
+
+The Runs Section display details of different runs, including benchmark execution date/time, phone model, kernel version, etc. You can also name/rename or delete a run, if you are the page owner.
+
+In the last section, All the cases are listed with the tags that are assigned to it. 
+
+== Options ==
+
+=== Tagging ===
+=== Permission Control ===
+== Graph Presentation ==
+=== Bar Graph ===
+=== Distribution Graph ===
