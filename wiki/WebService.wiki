@@ -11,18 +11,41 @@ http://farm5.static.flickr.com/4143/4858834355_ee039998e2_d.jpg
 
 There are four regions in the Web Interface. At the top is a tabbar that switch to view different benchmark categories.
 
-The Option Section controls how the main table (third section) will be displayed. For example, what benchmarks to display (via tags or select directly), what type of graph should be displayed, who have access to the page, etc. Detail of the option section will be explained in latter sections of this article.
+The Option Section controls how the Main Table (third section) will be displayed. Detail of the option section will be explained in latter sections of this article.
 
-In the Main Table, you can see results of multiple runs (uploads). Each benchmarking case is presented with a average performance number, and different types of graph representation. All the cases are also assigned with tags so that it's visibility can be controlled via the Option Section. 
+The Main Table display results of multiple runs (uploads). Each benchmarking case is presented with a average performance number, and different types of graph representation. All the cases are also assigned with tags so that it's visibility can be controlled via the Option Section. 
 
 The Runs Section display details of different runs, including benchmark execution date/time, phone model, kernel version, etc. You can also name/rename or delete a run, if you are the page owner.
 
 In the last section, All the cases are listed with the tags that are assigned to it. 
 
 == Options ==
+http://farm5.static.flickr.com/4080/4858978287_2817a09130_o_d.png
 
-=== Tagging ===
-=== Permission Control ===
-== Graph Presentation ==
+The Options Section controls how the Main Table is displayed. These controls include:
+ * The visibility of runs and benchmark cases can be control directly or via tags.
+ * Tagging mode (union or filtering)
+ * Type of graph to display (bar graph, distribution, or stacked distribution)
+ * Bar graphs should be comparing locally (cases within same run) or globally (all cases in all runs)
+ * Page permission control
+The Permission Field in the Options Section controls who have access to this page. The page owner can enter a semicolon separated list of gmail accounts to grant access. Including a "public" string in the list of account names will open the benchmark page to the public, regardless of whether the user is in the list or not.
+
+== Graphical Presentation ==
 === Bar Graph ===
+http://farm5.static.flickr.com/4074/4858980485_ab56b63f50_o_d.png
+
+If a benchmark case if consists of multiple result values, the bar graph can display five different values, using different colors and T indicators:
+ # The left-side T indicates the minimum measured value.
+ # The left-hand edge of the lighter-colored sections is the first quartile. 25% of the measurements are below this value; 75% are above it.
+ # The middle edge that divides the two lighter-colored sections is the median. 50% of the measurements are below this value; 50% are above it.
+ # The right-hand edge of the lighter-colored sections is the third quartile. 75% of the measurements are below this value; 25% are above it.
+ # The right-side T indicates the maximum measured value.
+Many bars will not have all of these features. In that case, the omitted feature is not interesting: it is equal to the adjacent value. If all measurements are exactly equal, then the minimum, first-quartile, median, third-quartile and maximum will all be together at the bar's end.
+
+(some part of the text in this section is adapted from caliper project wiki, more information of bar graph can be found [http://mathworld.wolfram.com/Box-and-WhiskerPlot.html here])
 === Distribution Graph ===
+http://farm5.static.flickr.com/4136/4858980301_526bd061b7_o_d.png
+
+
+=== Distribution Graph (stacked) ===
+http://farm5.static.flickr.com/4096/4859601266_c125d8b864_o_d.png
