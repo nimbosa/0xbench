@@ -1,5 +1,6 @@
 #summary Explain server-side service and data representation format
 
+=Table of Contents =
 <wiki:toc max_depth="3" />
 
 = Introduction =
@@ -7,6 +8,18 @@
 Beside saving or benchmarking results to the SD Card (either plain text or XML), 0xbench can also upload your results to a web service that provide visual representation of your results.This article explains in detail the steps needed to upload and how to interpret the results.
 
 = Uploading =
+== Default Benchmark Pages ==
+ # Complete running selected benchmarking cases
+ # Return to main view and click "Upload"
+ # Uncheck "Login", and click the "Send" button
+ # Point your browser to the URL reported on your phone
+
+== Creating your own page ==
+ # Use any browser to point to http://0xbench.appspot.com/
+ # Login with your google account to acquire an API key
+
+ # On your phone, check the "Login" checkbox and enter your email address, API key, and choose a desire benchmark page name
+ # Click send to create your own page on the web
 
 = Web Interface =
 http://farm5.static.flickr.com/4143/4858834355_ee039998e2_d.jpg
@@ -25,7 +38,7 @@ In the last section, the Tag Section, All the cases are listed with the tags tha
 http://farm5.static.flickr.com/4080/4858978287_b54c7ec75b_o_d.png
 
 The Options Section controls how the Main Table is displayed. These controls include:
- * The visibility of runs and benchmark cases can be control directly or via tags.
+ * The visibility of runs and benchmarking cases can be control directly or via tags.
  * Tagging mode (union or filtering)
  * Type of graph to display (bar graph, distribution, stacked distribution, or statistics)
  * Bar graphs should be comparing locally (cases within same run) or globally (all cases in all runs)
@@ -36,7 +49,7 @@ The Permission Field in the Options Section controls who have access to this pag
 === Bar Graph ===
 http://farm5.static.flickr.com/4074/4858980485_ab56b63f50_o_d.png
 
-If a benchmark case if consists of multiple result values, the bar graph can display five different values, using different colors and T indicators:
+If a benchmarking case if consists of multiple result values, the bar graph can display five different values, using different colors and T indicators:
  # The left-side T indicates the minimum measured value.
  # The left-hand edge of the lighter-colored sections is the first quartile. 25% of the measurements are below this value; 75% are above it.
  # The middle edge that divides the two lighter-colored sections is the median. 50% of the measurements are below this value; 50% are above it.
