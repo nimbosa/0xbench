@@ -20,8 +20,7 @@ Beside saving or benchmarking results to the SD Card (either plain text or XML),
  # Login with your google account to acquire an API key 
  # On your phone, check the "Login" checkbox and enter your email address, API key, and choose a desire benchmark page name
  # Click send to create your own page on the web
- http://farm5.static.flickr.com/4080/4862419094_4948654c25_d.jpg
-
+ http://farm5.static.flickr.com/4080/4862419094_290c97347c_d.jpg
 
 = Web Interface =
 http://farm5.static.flickr.com/4143/4858834355_ee039998e2_d.jpg
