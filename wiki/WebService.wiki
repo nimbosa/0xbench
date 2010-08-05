@@ -42,7 +42,7 @@ http://farm5.static.flickr.com/4080/4858978287_b54c7ec75b_o_d.png
 The Options Section controls how the Main Table is displayed. These controls include:
  * The visibility of runs and benchmarking cases can be control directly or via tags.
  * Tagging mode (union or filtering)
- * Type of graph to display (bar graph, distribution, stacked distribution, or statistics)
+ * Type of graph to display (bar graph, distribution, distribution (accumulated), or statistics)
  * Bar graphs should be comparing locally (cases within same run) or globally (all cases in all runs)
  * Page permission control
 The Permission Field in the Options Section controls who have access to this page. The page owner can enter a semicolon separated list of gmail accounts to grant access. Including a "public" string in the list of account names will open the benchmark page to the public, regardless of whether the user is in the list or not.
@@ -64,7 +64,7 @@ Many bars will not have all of these features. In that case, the omitted feature
 http://farm5.static.flickr.com/4136/4858980301_526bd061b7_o_d.png
 
 
-=== Distribution Graph (stacked) ===
+=== Distribution Graph (accumulated) ===
 http://farm5.static.flickr.com/4096/4859601266_c125d8b864_o_d.png
 
 === Statistic ===
