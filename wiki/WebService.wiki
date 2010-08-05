@@ -14,7 +14,7 @@ Beside saving or benchmarking results to the SD Card (either plain text or XML),
  # Uncheck "Login", and click the "Send" button
  # Point your browser to the URL reported on your phone
 
-== Creating your own page ==
+== Creating Your Own Page ==
  http://farm5.static.flickr.com/4077/4861799761_08a5839b28_m_d.jpg
  # Use any browser to point to http://0xbench.appspot.com/
  # Login with your google account to acquire an API key 
