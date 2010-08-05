@@ -8,7 +8,7 @@
 Beside saving or benchmarking results to the SD Card (either plain text or XML), 0xbench can also upload your results to a web service that provide visual representation of your results.This article explains in detail the steps needed to upload and how to interpret the results.
 
 = Uploading =
-== Default Benchmark Pages ==
+== To Default Benchmark Page ==
  # Complete running selected benchmarking cases
  # Return to main view and click "Upload"
  # Uncheck "Login", and click the "Send" button
