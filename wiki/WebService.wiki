@@ -8,6 +8,9 @@
 Beside saving or benchmarking results to the SD Card (either plain text or XML), 0xbench can also upload your results to a web service that provide visual representation of your results.This article explains in detail the steps needed to upload and how to interpret the results.
 
 = Uploading =
+After finish running all selected benchmark cases, you can upload your run results to the 0xBench Web service for visual representation and statistically analysis.
+Each page in the 0xBench Web can display multiple runs of benchmark results from the same phone or multiple phones. 
+
 == To Default Benchmark Page ==
  # Complete running selected benchmarking cases
  # Return to main view and click "Upload"
@@ -16,10 +19,11 @@ Beside saving or benchmarking results to the SD Card (either plain text or XML),
 
 == Creating Your Own Page ==
  http://farm5.static.flickr.com/4077/4861799761_08a5839b28_m_d.jpg
- # Use any browser to point to http://0xbench.appspot.com/
- # Login with your google account to acquire an API key 
- # On your phone, check the "Login" checkbox and enter your email address, API key, and choose a desire benchmark page name
- # Click send to create your own page on the web
+ # Use any browser to point to http://0xbench.appspot.com/ .
+ # Login with your google account to acquire an API key. 
+ # On your phone, check the "Login" checkbox and enter your email address, API key. 
+ # Choose a desire benchmark page name to create or enter an existing page name to upload to.
+ # Click send to upload results to specified page.
  http://farm5.static.flickr.com/4080/4862419094_290c97347c_d.jpg
 
 = Web Interface =
