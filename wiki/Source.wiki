@@ -1,3 +1,3 @@
 #summary Getting Project Source Code
 
-Our project is hosted at http://gitorious.org/0xbench/. Follow below steps, it shows how to set up the building environment, how to download 0xbench source code and how to build-from-scratch.
+0xbench project is hosted at http://gitorious.org/0xbench/. Follow below steps, it shows how to set up the building environment, how to download 0xbench source code and how to build-from-scratch.
