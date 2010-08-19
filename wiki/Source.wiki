@@ -15,7 +15,7 @@ git clone git://gitorious.org/0xbench/0xbench.git
 An APK image contains all the built-in Java-based benchmarks and a interface to the native C-based benchmarks, but not the C binaries itself.
 
 == Using Ant ==
- # Download and install Android SDK. Instruction can be found on [http://developer.android.com/sdk/index.html developer.android.com].
+ # Download and install Android SDK. Instruction can be found on [http://developer.android.com/sdk/index.html developer.android.com]. 
  # Generate local settings file (local.properties) by invoking the command:
 {{{
 android update project --path /path/to/0xbench/
@@ -34,6 +34,9 @@ adb install bin/Benchmark-*.apk
 
 == Using Eclipse ==
  # Download and install Android SDK and Eclipse IDE. Instruction can be found on [http://developer.android.com/sdk/index.html developer.android.com].
+ # In Eclipse, click File -> New -> Android Project.
+ # In the new project dialog, select `Create project from existing source`, select the path to 0xbench.
+ # Click Finish to create project in Eclipse.
 
 = Building and Deploying Standalone Binaries (NDK) =
 
