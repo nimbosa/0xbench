@@ -34,8 +34,8 @@ adb install bin/Benchmark-*.apk
 
 == Using Eclipse ==
  # Download and install Android SDK and Eclipse IDE. Instruction can be found on [http://developer.android.com/sdk/index.html developer.android.com].
- # In Eclipse, click File -> New -> Android Project.
- # In the new project dialog, select `Create project from existing source`, select the path to 0xbench.
+ # In Eclipse, click `File` -> `New` -> `Android Project`.
+ # In the new project dialog, select  `Create project from existing source` , select the path to 0xbench.
  # Click Finish to create project in Eclipse.
 
 = Building and Deploying Standalone Binaries (NDK) =
