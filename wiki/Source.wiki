@@ -18,7 +18,7 @@ An APK image contains all the built-in Java-based benchmarks and a interface to 
  # Download and install Android SDK.
  # Generate local settings file (local.properties) by invoking the command:
 {{{
-android update project --path 0xbench/
+android update project --path /path/to/0xbench/
 }}}
  # In the project directory (0xbench/), use one of the following commands to build APK depend on your needs:
 {{{
@@ -28,6 +28,7 @@ ant install   // install directly to connected device or emulator
 }}}
  # The produced APK file can be found under `/path/to/0xbench/bin/`. You can now deploy it to you devices using adb:
 {{{
+cd /path/to/0xbench
 adb install bin/Benchmark-*.apk
 }}}
 
@@ -59,11 +60,10 @@ export TOP=`pwd`
 cd /path/to/0xbench/
 mm
 }}}
- # APK can be found in:
+ # APK and binaries can be found in:
 {{{
+//APK
 /path/to/0xdroid/target/product/arch/system/app/ZeroXBenchmark.apk
-}}}
- # Binaries can be found in:
-{{{
+//Binaries
 /path/to/0xdroid/target/product/arch/system/bin/bench_*
 }}}
