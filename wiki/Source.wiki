@@ -2,9 +2,6 @@
 
 0xbench project is hosted at http://gitorious.org/0xbench/. Follow below steps, it shows how to set up the building environment, how to download 0xbench source code and how to build-from-scratch.
 
-=Table of Contents =
-<wiki:toc max_depth="3" />
-
 = Download Source Code =
 Use git to clone the source tree from Gitorious:
 {{{
@@ -51,7 +48,7 @@ adb push /path/to/0xbench/libs/armeabi/bench_* /system/bin/
 }}}
 
 = Building Everything with Source Tree (0xdroid) =
- # Download and build the 0xdroid source tree. Instructions can be found in [http://code.google.com/p/0xdroid/wiki/Source project 0xdroid wiki].
+ # Download and build the 0xdroid source tree. Instructions can be found in [http://code.google.com/p/0xdroid/wiki/Source 0xdroid wiki].
  # Setup build environment:
 {{{
 cd /path/to/0xdroid/
