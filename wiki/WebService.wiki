@@ -19,7 +19,7 @@ Each page in the 0xBench Web can display multiple runs of benchmark results from
 
 == Create Your Own Page ==
  http://farm5.static.flickr.com/4077/4861799761_08a5839b28_m_d.jpg
- # Use any browser to point to http://0xbench.appspot.com/ .
+ # Use any browser to point to http://0xbenchmark.appspot.com/ .
  # Login with your google account to acquire an API key. 
  # On your phone, check the "Login" checkbox and enter your email address, API key. 
  # Choose a desire benchmark page name to create or enter an existing page name to upload to.
