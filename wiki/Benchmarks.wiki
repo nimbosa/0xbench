@@ -1,16 +1,29 @@
 #summary summary of currently included benchmark cases
 
 == Current included benchmarks ==
+There are currently 16 included benchmarks. Two for arithmetic performance, seven for 2D rendering, four for 3D rendering, one for Dalvik, and two native benchmarks for system performance.
+
+=== Arithmetic ===
   # Linpack
    The Linpack Benchmark make use of a general numerical linear algebra operation to test the device's ability to perform floating point operations (MFLOPS). For detail please refer to [http://en.wikipedia.org/wiki/LINPACK Wikipedia], [http://www.netlib.org/benchmark/linpackjava/ netlib.org], [http://www.cs.cmu.edu/~jch/java/linpack.html cs.cmu.edu]. The original source can be found online here: [http://www.cs.cmu.edu/~jch/java/LinpackLoop.java Source code].
   # Scimark2
    The Scimark2 Benchmark Suite includes several scientific calculation (including FTT, MonteCarlo ..etc) for testing the device's abilitity to perform floating point operations (MFLOPS). For detail please refer to [http://math.nist.gov/scimark2/ nist.gov].
-  # LibMicro
-   A portable set of microbenchmarks that executes abundant system calls to measure the performance of different system and library calls (bionic). Since calling system functions directly is required,  this benchmark depends on a set of executable files that needs to be deployed in advance. (Which requires root permission of your device)
+=== 2D ===
   # Canvas Redraw
-   Use random color to redraw canvas repeatedly, and calculate the refresh rate.     
+   Use random color to redraw canvas repeatedly, and calculate the refresh rate. Note that the refresh rate of this benchmark should (may) be bounded by the device's vertical synchronization (vsync). (60fps for many Android phones, including Nexus One, HTC Hero, HTC Desire)
   # Draw Circle
    A simple 2D animation program. Calculate the refresh rate.
+  # DrawRect
+   Repeatedly add random colored, size rectangles on canvas.  
+  # DrawCircle2
+   Repeatedly render random colored, size circles on canvas.  
+  # DrawArc
+    Simple 2D animation.
+  # DrawText
+    Calculate text rendering speed.
+  # DrawImage
+    Calculate picture rendering speed.
+=== 3D ===
   # GL Cube
    A sample program from the Android API Demo that uses OpenGL ES to render a rotating Rubik's Cube.
   # GL Teapot
@@ -19,5 +32,11 @@
    A rotating 3D cube with textured applied and alpha blending enabled. For detail please refer to [http://nehe.gamedev.net/lesson.asp?index=02 nehe.gamedev.net](blending). For source code and explanation please refer to [http://nehe.gamedev.net/data/lessons/lesson.asp?lesson=08 NeHe lesson08].
   # NeHe Lesson16
    A rotating 3D cube with textured applied and GLFog enabled. For detail please refer to [http://nehe.gamedev.net/lesson.asp?index=04 nehe.gamedev.net](Cool look fog). For source code and explanation please refer to [http://nehe.gamedev.net/data/lessons/lesson.asp?lesson=16 NeHe lesson16].
+=== Dalvik ===
   # Garbage Collection
    Test the performance of the garbage collection mechanism on the Dalvik VM. For detail please refer to [http://www.hpl.hp.com/personal/Hans_Boehm/gc/gc_bench.html hpl.hp.com].  The original source can be found online here: [http://www.hpl.hp.com/personal/Hans_Boehm/gc/gc_bench/GCBench.java GCBench.java]
+=== Native ===
+  # LibMicro
+   A portable set of microbenchmarks that executes abundant system calls to measure the performance of different system and library calls (bionic). Since calling system functions directly is required,  this benchmark depends on a set of executable files that needs to be deployed in advance. (Which requires root permission of your device) More information on LibMicro can be found here: [http://hub.opensolaris.org/bin/view/Project+libmicro/ Project LibMicro, OpenSolaris]
+  # BYTE UnixBench
+   A set of benchmark cases originally started development in 1983 updated by many over the years. Byte UnixBench is intended to provide indication on the performance of unix-like system. More information on Byte UnixBench can be found on [http://code.google.com/p/byte-unixbench/ Google Code].
