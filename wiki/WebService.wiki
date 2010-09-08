@@ -18,6 +18,18 @@ Each page in the 0xBench Web can display multiple runs of benchmark results from
  # Point your browser to the URL reported on your phone
 
 == Create Your Own Page ==
+ New method: Login to Google directly on your phone, no need to type API keys anymore.
+
+ http://farm5.static.flickr.com/4144/4970650742_8c9b551af6_m.jpg
+ # On your phone, check the "Login" checkbox and press the "Login for API-key" button.
+ # Enter your Google account and password to login.
+ # Press "Confirm" to auto-fill Email and API key in the form.
+ # Choose a desire benchmark page name to create or enter an existing page name to upload to.
+ # Click send to upload results to specified page.
+ http://farm5.static.flickr.com/4090/4970650784_2faa63054a_m.jpg
+
+ Old method: If you are having trouble logging in to Google on your phone.
+
  http://farm5.static.flickr.com/4077/4861799761_08a5839b28_m_d.jpg
  # Use any browser to point to http://0xbenchmark.appspot.com/ .
  # Login with your google account to acquire an API key. 
