@@ -8,6 +8,11 @@ There are currently 16 included benchmarks. Two for arithmetic performance, seve
    The Linpack Benchmark make use of a general numerical linear algebra operation to test the device's ability to perform floating point operations (MFLOPS). For detail please refer to [http://en.wikipedia.org/wiki/LINPACK Wikipedia], [http://www.netlib.org/benchmark/linpackjava/ netlib.org], [http://www.cs.cmu.edu/~jch/java/linpack.html cs.cmu.edu]. The original source can be found online here: [http://www.cs.cmu.edu/~jch/java/LinpackLoop.java Source code].
   # Scimark2
    The Scimark2 Benchmark Suite includes several scientific calculation (including FTT, MonteCarlo ..etc) for testing the device's abilitity to perform floating point operations (MFLOPS). For detail please refer to [http://math.nist.gov/scimark2/ nist.gov].
+
+=== Web ===
+  # SunSpider
+   SunSpider is a JavaScript benchmark. This benchmark tests the core JavaScript language only, not the DOM or other browser APIs. It is designed to compare different versions of the same browser, and different browsers to each other. 
+
 === 2D ===
   # Canvas Redraw
    Use random color to redraw canvas repeatedly, and calculate the refresh rate. Note that the refresh rate of this benchmark should (may) be bounded by the device's vertical synchronization (vsync). (60fps for many Android phones, including Nexus One, HTC Hero, HTC Desire)
